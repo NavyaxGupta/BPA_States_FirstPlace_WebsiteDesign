@@ -1,0 +1,159 @@
+*{padding: 0; margin: 0;}
+
+body{
+    background: powderblue;
+    overflow-x: hidden;
+}
+h1{
+    font-family: 'Merienda';font-size: 28px
+}
+h1, h2, h4, .h3 {
+    text-align: center;
+}
+
+/*h1,h2,h4 {
+    font-family: 'Calibri';
+    font-size: 28px;
+}*/
+
+.header{
+    font-family: Calibri;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.logo {
+    float: left;
+    left: 10px;
+    /* margin-bottom: 30px;*/
+    padding-top: 10px;
+    position: absolute;
+    top: 0px;
+    width: 150px;
+}
+
+.container {
+    float:left; background:#ffffff;
+    padding:150px 10px 20px;
+    width:100%;
+    font-family: Calibri;
+    font-size: 20px;
+}
+
+.mySlides {
+    width: 100%;
+    height: 500px
+}
+
+.w3-content{
+    padding-right: 30px
+}
+
+.w3-button{
+    border:1px;
+    display:inline-block;
+    padding:8px 10px;
+    vertical-align:middle;
+    cursor:pointer;
+}
+
+.w3-button:hover{
+    color:#000;
+    background-color:#ccc;
+}
+
+.w3-display-left{
+    position:absolute;top:50%;left:1%;
+}
+
+.w3-display-right{
+    position:absolute;top:50%;right:1%;
+}
+img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.headerLine{
+    background-color: midnightblue;
+    padding: 15px 15%;
+    font-family: Calibri;
+    color: aliceblue;
+}
+
+.button {
+    background-color: white;
+    color: black;
+    padding: 4px 10px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    font-family: Calibri;
+    margin: 4px 20px;
+    cursor: pointer;
+    border-radius: 12px;
+    border: 0.5px solid black;
+    width: 40%;
+    min-width: 180px;
+    height: 40px;
+}
+
+.button:hover, .button.active {
+    background-color: #555555;
+    color: white;
+}
+
+.button img { float:right;border: none;}
+
+.navBar {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: auto;
+    white-space: nowrap;padding-top: 60px;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #004085;
+    color: black;
+}
+
+.footergrid-container {
+    display: grid;
+    grid-template-columns: 30% auto 30%;
+    background-color: lightslategray;
+    padding: 10px;
+    font-family: 'Calibri'; font-size: 28px
+}
+.footergrid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 50px;
+    font-family: 'Calibri'; font-size: 22px;
+}
+
+.mapspage ul, .mapspage p {
+    background-color: rgba(16,29,66, 0.88);
+    color: #fff;
+    font-family: 'ABeeZee', sans-serif;
+    font-style: normal;
+    font-size: 1em;
+    list-style: inline;
+    border-radius: 10px;
+    font-weight: 400;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: left;
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+
