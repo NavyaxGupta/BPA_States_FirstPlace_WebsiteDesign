@@ -43,7 +43,7 @@
 .grid-item.card.img a:hover img {
 }
 
-.img:hover {
+.img:hover, .crop img:hover {
     -webkit-transform: scale(1.04);
     -moz-transform: scale(1.04);
     -o-transform: scale(1.04);
@@ -72,6 +72,6 @@
 }
 
 .crop img{
-    width: 420px;
-    height: 420px;
+    width: 370px;
+    height: 370px;
 }
