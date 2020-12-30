@@ -67,9 +67,11 @@
 
 .sort-row{
     background-color: aliceblue;
-    width: 70%;
+    width: 100%;
+    text-align: center;
     margin-left: 0;
     margin-right: 0;
+}
 }
 
 .crop img{
