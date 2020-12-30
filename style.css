@@ -132,10 +132,12 @@ img{
     font-family: 'Calibri'; font-size: 28px
 }
 .footergrid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 50px;
-    font-family: 'Calibri'; font-size: 22px;
+    background-color: lightslategray;
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    padding: 30px;
+    font-family: 'Calibri';
+    font-size: 22px;
+    /* I changed this is make it less boxy looking because that wasn't suiting the layout of rest of website*/
 }
 
 .mapspage ul, .mapspage p {
