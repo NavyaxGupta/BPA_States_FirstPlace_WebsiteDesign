@@ -127,15 +127,15 @@ img{
 .footergrid-container {
     display: grid;
     grid-template-columns: 30% auto 30%;
-    background-color: lightslategray;
+    background-color: rgb(103, 117, 149);
     padding: 10px;
-    font-family: 'Calibri'; font-size: 28px
+    font-family: 'fangsong'; font-size: 28px
 }
 .footergrid-item {
-    background-color: lightslategray;
+    background-color: rgb(103, 117, 149);
     /* border: 1px solid rgba(0, 0, 0, 0.8); */
     padding: 30px;
-    font-family: 'Calibri';
+    font-family: 'fangsong';
     font-size: 22px;
     /* I changed this is make it less boxy looking because that wasn't suiting the layout of rest of website*/
 }
