@@ -84,11 +84,11 @@ img{
     background-color: white;
     color: black;
     padding: 4px 10px;
-    text-align: left;
+    text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 25px;
-    font-family: Calibri;
+    font-family: 'Circular-Loom';
     margin: 4px 20px;
     cursor: pointer;
     border-radius: 12px;
