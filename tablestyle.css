@@ -7,10 +7,10 @@
 }
 .grid-container {
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 20px;
     grid-template-columns: auto auto auto;
     background-color: lightsteelblue;
-    padding: 10px;
+    padding: 17px;
 }
 
 .grid-item {
