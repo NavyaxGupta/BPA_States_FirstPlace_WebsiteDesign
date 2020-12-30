@@ -111,7 +111,8 @@ img{
     flex-direction: row;
     align-items: center;
     overflow: auto;
-    white-space: nowrap;padding-top: 60px;
+    white-space: nowrap;
+    padding-top: 40px;
 }
 
 .footer {
