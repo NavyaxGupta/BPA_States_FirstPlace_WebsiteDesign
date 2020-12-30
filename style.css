@@ -70,6 +70,7 @@ h1, h2, h4, .h3 {
     position:absolute;top:50%;right:1%;
 }
 img{
+    pointer-events: none;
     padding: 5px;
 }
 
