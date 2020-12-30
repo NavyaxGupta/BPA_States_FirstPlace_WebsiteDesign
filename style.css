@@ -129,7 +129,9 @@ img{
     grid-template-columns: 30% auto 30%;
     background-color: rgb(0, 0, 102);
     padding: 10px;
-    font-family: 'fangsong'; font-size: 28px
+    font-family: 'fangsong'; 
+    color: white;
+    font-size: 28px
 }
 .footergrid-item {
     background-color: rgb(0, 0, 102);
