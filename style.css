@@ -100,8 +100,8 @@ img{
 }
 
 .button:hover, .button.active {
-    background-color: #555555;
-    color: aliceblue;
+    background-color: rgb(230, 46, 0);
+    color: white;
 }
 
 .button img { float:right;border: none;}
@@ -127,14 +127,14 @@ img{
 .footergrid-container {
     display: grid;
     grid-template-columns: 30% auto 30%;
-    background-color: rgb(0, 0, 102);
+    background-color: rgb(0, 0, 77);
     padding: 10px;
     font-family: 'fangsong'; 
     color: white;
     font-size: 28px
 }
 .footergrid-item {
-    background-color: rgb(0, 0, 102);
+    background-color: rgb(0, 0, 77);
     /* border: 1px solid rgba(0, 0, 0, 0.8); */
     padding: 30px;
     font-family: 'fangsong';
@@ -144,7 +144,7 @@ img{
 }
 
 .mapspage ul, .mapspage p {
-    background-color: midnightblue;
+    background-color: rgb(0, 0, 77);
     color: #fff;
     font-family: 'ABeeZee', sans-serif;
     font-style: normal;
