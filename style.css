@@ -161,24 +161,24 @@ img{
 
 
 /* unvisited link */
-.footergrid-item a:link, .mapspage a:link {
-  color: #FF0000;
+a:link {
+  color: rgb(230, 46, 0);
 }
 
+/* visited link info */
+a:visited {
+  color: rgb(0, 0, 77);
+}
 /* visited link */
 .footergrid-item a:visited, .mapspage a:visited {
-  color: #00FF00;
+  color: lightsteelblue;
 }
 
 /* mouse over link */
-.footergrid-item a:hover, .mapspage a:hover {
-  color: #FF00FF;
+a:hover {
+  color: rgb(36, 143, 36);
 }
 
-/* selected link */
-.footergrid-item a:active, .mapspage a:active {
-  color: #0000FF;
-}
 
 li span.bold {
 font-weight: bold;
