@@ -4,7 +4,7 @@ html {
     scroll-padding-top: 150px; /* height of sticky header */
 }
 body{
-    background: white;
+    background: powderblue;
     overflow-x: hidden;
 }
 h1{
@@ -33,7 +33,7 @@ h1, h2, h4, .h3 {
 }
 
 .container {
-    float:left; background:lightsteelblue;
+    float:left; background: white;
     padding: 150px 0px 20px;
     width:100%;
     font-family: Calibri;
