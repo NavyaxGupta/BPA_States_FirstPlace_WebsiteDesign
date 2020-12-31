@@ -200,6 +200,8 @@ font-weight: bold;
     width: 45%;
     padding: 20px 20px;
     margin-right: auto;
+    border-top: 10px solid grey;
+    border-bottom: 10px solid grey;
 }
 
 #about hr {
@@ -215,6 +217,7 @@ font-weight: bold;
     margin: auto;
     margin-top: 25px;
     background-color: midnightblue;
+    border-top: 10px solid grey;
     border-bottom: 10px solid grey;
 }
 
