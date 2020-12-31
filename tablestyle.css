@@ -54,7 +54,7 @@
 .sort-button {
     background-color: rgb(230, 46, 0);
     border: none;
-    color: white !important;
+    color: white;
     padding: 15px 34px;
     text-align: center;
     text-decoration: none;
