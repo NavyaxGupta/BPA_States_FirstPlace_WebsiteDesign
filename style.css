@@ -20,6 +20,7 @@ h1, h2, h4, .h3 {
     background-color: aliceblue;
     position: fixed;
     top: 0;
+    
     width: 100%;
 }
 
@@ -83,14 +84,14 @@ img{
 }
 
 .button {
-    background-color: white;
+    background-color: #fbfbfb;
     color: black;
     padding: 4px 10px;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
     display: inline-block;
     font-size: 25px;
-    font-family: 'Circular-Loom';
+    font-family: Calibri;
     margin: 4px 20px;
     cursor: pointer;
     border-radius: 12px;
@@ -101,8 +102,8 @@ img{
 }
 
 .button:hover, .button.active {
-    background-color: rgb(230, 46, 0);
-    color: white;
+    background-color: midnightblue;
+    color: #fbfbfb;
 }
 
 .button img { float:right;border: none;}
