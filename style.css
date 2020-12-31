@@ -161,12 +161,12 @@ img{
 
 
 /* unvisited link */
-a:link {
+.grid-item a:link, .footergrid-item a:link, .mapspage a:link {
   color: rgb(230, 46, 0);
 }
 
 /* visited link info */
-a:visited {
+.grid-item a:visited {
   color: rgb(0, 0, 77);
 }
 /* visited link */
@@ -175,7 +175,7 @@ a:visited {
 }
 
 /* mouse over link */
-a:hover {
+.grid-item a:hover, .footergrid-item a:hover, .mapspage a:hover {
   color: rgb(36, 143, 36);
 }
 
