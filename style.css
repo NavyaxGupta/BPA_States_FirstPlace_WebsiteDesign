@@ -102,7 +102,7 @@ img{
 }
 
 .button:hover, .button.active {
-    background-color: midnightblue;
+    background-color: steelblue;
     color: #fbfbfb;
 }
 
