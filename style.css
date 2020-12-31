@@ -160,6 +160,30 @@ img{
 }
 
 
+/* unvisited link */
+.footergrid-item a:link, .mapspage a:link {
+  color: #FF0000;
+}
+
+/* visited link */
+.footergrid-item a:visited, .mapspage a:visited {
+  color: #00FF00;
+}
+
+/* mouse over link */
+.footergrid-item a:hover, .mapspage a:hover {
+  color: #FF00FF;
+}
+
+/* selected link */
+.footergrid-item a:active, .mapspage a:active {
+  color: #0000FF;
+}
+
+.bold {
+font-weight: bold;
+}
+
 
 
 
