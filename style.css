@@ -131,7 +131,7 @@ img{
     grid-template-columns: 30% auto 30%;
     background-color: rgb(0, 0, 102);
     padding: 10px;
-    font-family: 'fangsong'; 
+    font-family: 'calibri'; 
     color: white;
     font-size: 28px
 }
@@ -139,10 +139,9 @@ img{
     background-color: rgb(0, 0, 102);
     /* border: 1px solid rgba(0, 0, 0, 0.8); */
     padding: 30px;
-    font-family: 'fangsong';
+    font-family: 'calibri';
     color: white;
-    font-size: 19px
-    /* I changed this is make it less boxy looking because that wasn't suiting the layout of rest of website*/
+    font-size: 19px;
 }
 
 .mapspage ul, .mapspage p {
