@@ -218,5 +218,19 @@ font-weight: bold;
     border-bottom: 10px solid grey;
 }
 
+/* Copyright Statement */
+.copyright{
+    clear: both;
+    overflow: auto;
+    color: midnightblue;
+    background-color: #fbfbfb;
+    font-size: 30px;
+    font-family: Commissioner;
+}
+.CopyrightText{
+    float: right;
+    padding: 30px;
+}
+
 
 
