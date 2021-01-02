@@ -35,7 +35,7 @@ h1, h2, h4, .h3 {
 
 .container {
     float:left;
-    background:#ffffff;
+    background:lightsteelblue;
     padding:144px 0px 0px;
     width:100%;
     font-family: Calibri;
@@ -237,9 +237,9 @@ font-weight: bold;
 .quote{
     clear: both;
     overflow: auto;
-    color: lightsteelblue;
-    background-color: steelblue;
-    font-size: 28px;
+    color: rgb(0, 0, 102);
+    background-color: white;
+    font-size: 30px;
     font-family: Parisienne;
 }
 .quoteText{
