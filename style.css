@@ -36,7 +36,7 @@ h1, h2, h4, .h3 {
 .container {
     float:left;
     background:#ffffff;
-    padding:144px 10px 0px;
+    padding:144px 0px 0px;
     width:100%;
     font-family: Calibri;
     font-size: 20px;
