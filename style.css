@@ -233,4 +233,18 @@ font-weight: bold;
 }
 
 
+/* Facts */
+
+.quote{
+    clear: both;
+    overflow: auto;
+    color: lightsteelblue;
+    background-color: steelblue;
+    font-size: 28px;
+    font-family: Parisienne;
+}
+.quoteText{
+    text-align: center;
+    padding: 20px;
+}
 
