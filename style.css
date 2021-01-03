@@ -264,6 +264,7 @@ button{
 @media (max-width: 800px) {
   .button {
     font-size:20px;
-    height:30px;
+    height:auto;
+    margin:5px 5px 0px 5px;
   }
 }
