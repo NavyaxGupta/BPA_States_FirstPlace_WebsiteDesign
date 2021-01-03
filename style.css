@@ -94,7 +94,7 @@ img{
     font-family: Calibri;
     margin: 4px 10px;
     cursor: pointer;
-    border-radius: 12px;
+    border-radius: 6px;
     border: 1px solid black;
     width: 40%;
      /* min-width: 180px; removed not to set minimum width */
