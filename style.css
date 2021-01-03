@@ -248,7 +248,6 @@ font-weight: bold;
 }
 a:focus, button:focus, a img:focus, a:focus img{
   outline: 2px solid red;
-  border: 2px solid red;
 }
 
 
