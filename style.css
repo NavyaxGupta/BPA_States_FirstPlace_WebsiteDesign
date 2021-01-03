@@ -246,6 +246,6 @@ font-weight: bold;
     text-align: center;
     padding: 20px;
 }
-a:focus {
+a:focus, button:focus {
   outline: 2px solid red;
 }
