@@ -65,14 +65,14 @@ h1, h2, h4, h3 {
 }
 
 .w3-display-left{
-    position:absolute;top:40%;left:1%;
+    position:absolute;top:50%;left:1%;
 }
 
 .w3-display-right{
-    position:absolute;top:40%;right:1%;
+    position:absolute;top:50%;right:1%;
 }
 img{
-    padding: 0px;
+    padding: 5px;
 }
 .navBar a img{padding:5px;}
 
