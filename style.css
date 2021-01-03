@@ -263,8 +263,7 @@ button{
 }
 @media (max-width: 800px) {
   .button {
-    font-size:20px;
-    height:auto;
+    font-size:20px;    
     margin:5px 5px 0px 5px;
   }
 }
