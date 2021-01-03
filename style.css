@@ -246,7 +246,7 @@ font-weight: bold;
     text-align: center;
     padding: 20px;
 }
-a:focus, button:focus, a img.logo:focus{
+a:focus, button:focus, a:focus img.logo{
   outline: 2px solid red;
 }
 
