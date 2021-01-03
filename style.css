@@ -224,7 +224,7 @@ font-weight: bold;
     color: midnightblue;
     background-color: #fbfbfb;
     font-size: 16px;
-    font-family: Commissioner;
+    font-family: Calibri;
 }
 .CopyrightText{
     float: right;
@@ -238,7 +238,7 @@ font-weight: bold;
     clear: both;
     overflow: auto;
     color: rgb(0, 0, 102);
-    background-color: white;
+    background-color: aliceblue;
     font-size: 30px;
     font-family: Parisienne;
 }
@@ -247,5 +247,5 @@ font-weight: bold;
     padding: 20px;
 }
 a:focus {
-  outline: 2px dashed red;
+  outline: 2px solid red;
 }
