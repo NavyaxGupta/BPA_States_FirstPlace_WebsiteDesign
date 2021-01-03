@@ -246,13 +246,10 @@ font-weight: bold;
     text-align: center;
     padding: 20px;
 }
-a:focus, button:focus{
+a:focus, button:focus, a.button:focus{
   outline: 2px solid red;
 }
 
-img:focus{
-border: 2px solid red;
-}
 
 button{
  font-family: calibri;   
