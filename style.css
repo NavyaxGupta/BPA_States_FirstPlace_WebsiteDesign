@@ -193,12 +193,12 @@ font-weight: bold;
 
 #team div {
     text-align: left;
-    background-color: midnightblue;
-    color: aliceblue;
+    background-color: #000066;
+    color: white;
     width: 45%;
     padding: 20px 20px;
     margin-right: auto;
-    border-bottom: 10px solid grey;
+    border-bottom: 8px solid grey;
 }
 
 #about hr {
@@ -207,14 +207,15 @@ font-weight: bold;
 }
 
 #about {
-    width: 75%;
+   width: 75%;
     padding: 20px;
-    color: #e5e5e5;
+    color: white;
     text-align: center;
     margin: auto;
     margin-top: 25px;
-    background-color: midnightblue;
-    border-bottom: 10px solid grey;
+    margin-bottom: 25px;
+    background-color: #000066;
+    border-bottom: 8px solid grey;
 }
 
 /* Copyright Statement */
