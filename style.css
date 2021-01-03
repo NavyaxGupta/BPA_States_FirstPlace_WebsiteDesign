@@ -116,6 +116,7 @@ img{
     overflow: auto;
     white-space: nowrap;
     padding-top: 30px;
+    margin-top:50px;
 }
 
 .footer {
@@ -269,6 +270,7 @@ button{
     padding: 8px 10px;
   }
     h1{        
-        text-align:right;       
+        float:right;  
+        margin-top:10px;
     }
 }
