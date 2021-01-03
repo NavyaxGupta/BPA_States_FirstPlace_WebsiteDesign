@@ -249,3 +249,7 @@ font-weight: bold;
 a:focus, button:focus, img:focus {
   outline: 2px solid red;
 }
+
+button{
+ font-family: calibri;   
+}
