@@ -265,12 +265,12 @@ button{
   .button {
     font-size:20px;    
     margin:5px 0px 5px 5px;
-    height: auto;
+    height: 40px;
     padding: 8px 10px;
   }
-    h1{        
-         
+    h1{ 
         margin-top:20px;
-        font-size:30px
+        font-size:30px;
+        text-align:right !important;
     }
 }
