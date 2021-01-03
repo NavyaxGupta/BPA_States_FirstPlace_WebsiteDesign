@@ -53,7 +53,7 @@
 }
 .sort-button {
     background-color: steelblue;
-    border: none;
+    border: 1px solid rgb(0, 0, 102);
     color: white;
     padding: 15px 30px;
     text-align: center;
@@ -73,5 +73,7 @@
     text-align: center;
     margin-left: 0;
     margin-right: 0;
+    padding-top: 10px;
+    
 }
 }
