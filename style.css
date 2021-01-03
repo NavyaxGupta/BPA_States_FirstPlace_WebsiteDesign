@@ -117,11 +117,6 @@ img{
     white-space: nowrap;
     padding-top: 30px;
 }
- /*    added for navigation responsive   */
-@media (max-width: 1200px) {
-  .navBar {
-    flex-direction: column;
-  }
 
 .footer {
     left: 0;
