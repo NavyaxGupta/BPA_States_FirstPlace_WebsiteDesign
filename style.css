@@ -246,4 +246,6 @@ font-weight: bold;
     text-align: center;
     padding: 20px;
 }
-
+a:focus {
+  outline: 2px dashed red;
+}
