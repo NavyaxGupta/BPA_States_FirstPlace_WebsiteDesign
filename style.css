@@ -9,7 +9,7 @@ body{
 }
 h1{
     font-family: 'Commissioner';
-    font-size: 60px;
+    font-size: 40px;
 }
 h1, h2, h4, h3 {
     text-align: center;
@@ -114,7 +114,7 @@ img{
     align-items: center;
     overflow: auto;
     white-space: nowrap;
-    padding-top: 10px;
+    padding-top: 30px;
 }
 
 .footer {
