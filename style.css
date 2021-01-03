@@ -114,8 +114,7 @@ img{
     flex-direction: row;
     align-items: center;
     overflow: auto;
-    white-space: nowrap;
-    padding-top: 30px;
+    white-space: nowrap;    
     margin-top:50px;
 }
 
@@ -270,7 +269,7 @@ button{
     padding: 8px 10px;
   }
     h1{        
-        float:right;  
+         
         margin-top:20px;
         font-size:30px
     }
