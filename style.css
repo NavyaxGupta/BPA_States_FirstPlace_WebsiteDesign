@@ -233,7 +233,6 @@ font-weight: bold;
     padding: 5px 10px;
 }
 
-
 /* Facts */
 
 .quote{
@@ -252,7 +251,13 @@ a:focus, button:focus, a:focus img.logo{
   outline: 2px solid red;
 }
 
-
 button{
  font-family: calibri;   
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 1000px) {
+  .navBar a img {
+    display:none;
+  }
 }
