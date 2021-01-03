@@ -246,8 +246,9 @@ font-weight: bold;
     text-align: center;
     padding: 20px;
 }
-a:focus, button:focus, a.button:focus{
+a:focus, button:focus, a img:focus{
   outline: 2px solid red;
+  border: 2px solid red;
 }
 
 
