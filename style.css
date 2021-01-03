@@ -258,13 +258,15 @@ button{
 /* Responsive layout - makes a one column layout instead of a two-column layout */
 @media (max-width: 1000px) {
   .navBar a img {
-    display:none;
+  display:none;
   }
 }
 @media (max-width: 800px) {
   .button {
     font-size:20px;    
     margin:5px 0px 5px 5px;
+    height: auto;
+    padding: 8px 10px;
   }
     h1{
         font-size:1.5em;
