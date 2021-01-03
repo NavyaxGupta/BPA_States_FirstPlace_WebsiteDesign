@@ -92,12 +92,12 @@ img{
     display: inline-block;
     font-size: 25px;
     font-family: Calibri;
-    margin: 4px 20px;
+    margin: 4px 10px;
     cursor: pointer;
     border-radius: 12px;
     border: 1px solid black;
     width: 40%;
-    min-width: 180px;
+     /* min-width: 180px; removed not to set minimum width */
     height: 40px;
 }
 
@@ -117,6 +117,11 @@ img{
     white-space: nowrap;
     padding-top: 30px;
 }
+ /*    added for navigation responsive   */
+@media (max-width: 1200px) {
+  .navBar {
+    flex-direction: column;
+  }
 
 .footer {
     left: 0;
