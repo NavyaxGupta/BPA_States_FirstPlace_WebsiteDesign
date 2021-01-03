@@ -74,7 +74,7 @@ h1, h2, h4, h3 {
 img{
     padding: 0px;
 }
-.navBar a img{padding:5px;}
+.navBar a img{padding:5px;width:100%;}
 
 .headerLine{
     background-color: rgb(0, 0, 102);
