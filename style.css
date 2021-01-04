@@ -127,7 +127,7 @@ img{
 
 .footergrid-container {
     display: grid;
-    grid-template-columns: 20% auto;
+    grid-template-columns: 40% auto;
     background-color: rgb(0, 0, 102);
     padding: 10px;
     font-family: 'Helvetica Neue';
