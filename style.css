@@ -271,7 +271,7 @@ button{
         font-weight:bold;
     }
     .w3-display-left, .w3-display-right{
-        top:45%;
+        top:42%;
     }
 }
 @media (max-width: 800px) {
