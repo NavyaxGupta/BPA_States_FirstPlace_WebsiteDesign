@@ -44,7 +44,7 @@ h1, h2, h4, h3 {
 
 .mySlides {
     width: 100%;
-    height: 500px
+    /* height: 500px - removed to correct the home images correct size */
 }
 
 .w3-content{
