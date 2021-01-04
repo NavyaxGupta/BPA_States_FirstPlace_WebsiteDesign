@@ -162,9 +162,13 @@ img{
 
 
 /* unvisited link */
-.grid-item a:link, .footergrid-item a:link, .mapspage a:link {
-  color: #E02D00;
+.footergrid-item a:link, .mapspage a:link {
+  color: #FF8566;
 }
+
+.grid-item a:link {
+  color: #A32100;
+} 
 
 /* visited link info */
 .grid-item a:visited {
