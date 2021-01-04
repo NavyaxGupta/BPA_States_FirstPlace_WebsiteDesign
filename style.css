@@ -16,11 +16,11 @@ h1, h2, h4, h3 {
 }
 
 .header{
-    font-family: Calibri;
+    font-family: 'Rubik';
     background-color: aliceblue;
     position: fixed;
     top: 0;
-    
+
     width: 100%;
 }
 
@@ -38,7 +38,7 @@ h1, h2, h4, h3 {
     background:lightsteelblue;
     padding:138px 0px 0px;
     width:100%;
-    font-family: Calibri;
+    font-family: 'Rubik';
     font-size: 20px;
 }
 
@@ -79,7 +79,7 @@ img{
 .headerLine{
     background-color: rgb(0, 0, 102);
     padding: 15px 15%;
-    font-family: Calibri;
+    font-family: 'Rubik';
     color: aliceblue;
 }
 
@@ -91,13 +91,13 @@ img{
     text-decoration: none;
     display: inline-block;
     font-size: 25px;
-    font-family: Calibri;
+    font-family: 'Rubik';
     margin: 4px 10px;
     cursor: pointer;
     border-radius: 6px;
     border: 1px solid black;
     width: 40%;
-     /* min-width: 180px; removed not to set minimum width */
+    /* min-width: 180px; removed not to set minimum width */
     height: 40px;
 }
 
@@ -114,7 +114,7 @@ img{
     flex-direction: row;
     align-items: center;
     overflow: auto;
-    white-space: nowrap;    
+    white-space: nowrap;
     margin-top:30px;
 }
 
@@ -131,7 +131,7 @@ img{
     grid-template-columns: 30% auto 30%;
     background-color: rgb(0, 0, 102);
     padding: 10px;
-    font-family: 'calibri'; 
+    font-family: 'Rubik';
     color: white;
     font-size: 28px
 }
@@ -139,7 +139,7 @@ img{
     background-color: rgb(0, 0, 102);
     /* border: 1px solid rgba(0, 0, 0, 0.8); */
     padding: 30px;
-    font-family: 'calibri';
+    font-family: 'Rubik';
     color: white;
     font-size: 19px;
 }
@@ -147,7 +147,7 @@ img{
 .mapspage ul, .mapspage p {
     background-color: rgb(0, 0, 102);
     color: #fff;
-    font-family: calibri;
+    font-family: 'Rubik';
     font-style: normal;
     font-size: 1em;
     list-style: inline;
@@ -163,30 +163,30 @@ img{
 
 /* unvisited link */
 .footergrid-item a:link, .mapspage a:link {
-  color: #FF8566;
+    color: #FF8566;
 }
 
 .grid-item a:link {
-  color: #A32100;
-} 
+    color: #A32100;
+}
 
 /* visited link info */
 .grid-item a:visited {
-  color: rgb(0, 0, 77);
+    color: rgb(0, 0, 77);
 }
 /* visited link */
 .footergrid-item a:visited, .mapspage a:visited {
-  color: lightsteelblue;
+    color: lightsteelblue;
 }
 
 /* mouse over link */
 .grid-item a:hover, .footergrid-item a:hover, .mapspage a:hover {
-  color: rgb(36, 143, 36);
+    color: rgb(36, 143, 36);
 }
 
 
 li span.bold {
-font-weight: bold;
+    font-weight: bold;
 }
 
 #team {
@@ -212,7 +212,7 @@ font-weight: bold;
 }
 
 #about {
-   width: 75%;
+    width: 75%;
     padding: 20px;
     color: white;
     text-align: center;
@@ -230,7 +230,7 @@ font-weight: bold;
     color: midnightblue;
     background-color: #fbfbfb;
     font-size: 16px;
-    font-family: Calibri;
+    font-family: 'Rubik';
 }
 .CopyrightText{
     float: right;
@@ -252,27 +252,27 @@ font-weight: bold;
     padding: 20px;
 }
 a:focus, button:focus, a:focus img.logo{
-  outline: 2px solid red;
+    outline: 2px solid red;
 }
 
 button{
- font-family: calibri;   
+    font-family: 'Rubik';
 }
 
 /* Responsive layout - makes a one column layout instead of a two-column layout */
 @media (max-width: 1000px) {
-  .navBar a img {
-  display:none;
-  }
+    .navBar a img {
+        display:none;
+    }
 }
 @media (max-width: 800px) {
-  .button {
-    font-size:20px;    
-    margin:5px 0px 5px 5px;
-    height: 30px;
-    padding: 8px 10px;
-  }
-    h1{ 
+    .button {
+        font-size:20px;
+        margin:5px 0px 5px 5px;
+        height: 30px;
+        padding: 8px 10px;
+    }
+    h1{
         margin-top:20px;
         font-size:30px;
         text-align:right !important;
