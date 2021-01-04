@@ -273,8 +273,8 @@ button{
         padding: 8px 10px;
     }
     h1{
-        margin-top:11px;
-        font-size:20px;
+        font-size:25px;
         text-align:right !important;
+        margin:11px 10px 10px 0px
     }
 }
