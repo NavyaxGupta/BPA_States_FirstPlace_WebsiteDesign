@@ -265,7 +265,7 @@ button{
         display:none;
     }
     .w3-display-left, .w3-display-right{
-        top:30%;
+        top:40%;
     }
 }
 @media (max-width: 800px) {
@@ -280,5 +280,8 @@ button{
         text-align:right !important;
         margin:25px 10px 10px 0px;
         font-weight:bold;
+    }
+    .w3-display-left, .w3-display-right{
+        top:30%;
     }
 }
