@@ -18,8 +18,8 @@ h1, h2, h4, h3 {
 .header{
     font-family: 'Rubik';
     background-color: aliceblue;
-    position: fixed;
-    top: 0;
+    /*position: fixed;
+    top: 0;*/
     width: 100%;
 }
 
