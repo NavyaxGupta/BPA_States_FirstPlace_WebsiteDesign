@@ -26,7 +26,7 @@
     padding: 20px;
     font-size: 20px;
     text-align: left;
-    font-family: 'Helvetica Neue';
+    font-family: 'Rubik';
 }
 .list-unstyled {
     list-style: none;
@@ -63,7 +63,7 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    text-font: 'Helvetica Neue' !important;
+    text-font: 'Rubik' !important;
     font-weight: normal;
     font-size: 20px;
     margin-bottom:5px;
