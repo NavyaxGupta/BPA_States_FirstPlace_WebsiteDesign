@@ -264,6 +264,9 @@ button{
     .navBar a img {
         display:none;
     }
+    .w3-display-left, .w3-display-right{
+        top:30%;
+    }
 }
 @media (max-width: 800px) {
     .button {
