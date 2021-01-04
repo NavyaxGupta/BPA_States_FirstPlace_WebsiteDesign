@@ -65,11 +65,11 @@ h1, h2, h4, h3 {
 }
 
 .w3-display-left{
-    position:absolute;top:50%;left:1%;
+    position:absolute;top:47%;left:1%;
 }
 
 .w3-display-right{
-    position:absolute;top:50%;right:1%;
+    position:absolute;top:47%;right:1%;
 }
 img{
     padding: 0px;
@@ -271,7 +271,7 @@ button{
         font-weight:bold;
     }
     .w3-display-left, .w3-display-right{
-        top:42%;
+        top:38%;
     }
 }
 @media (max-width: 800px) {
