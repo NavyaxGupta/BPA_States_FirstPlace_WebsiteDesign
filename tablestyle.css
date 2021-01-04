@@ -48,12 +48,13 @@
 .grid-item.card.img a:hover img {
 }
 
+/*
 .img:hover, .crop img:hover {
     -webkit-transform: scale(1.04);
     -moz-transform: scale(1.04);
     -o-transform: scale(1.04);
     -ms-transform: scale(1.04);
-    transform: scale(1.04);
+    transform: scale(1.04); */
 }
 .sort-button {
     background-color: rgb(255, 77, 77);
