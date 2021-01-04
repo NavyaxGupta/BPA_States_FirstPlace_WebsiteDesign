@@ -27,8 +27,8 @@ h1, h2, h4, h3 {
     float: left;
     left: 10px;
     padding-top: 10px;
-    /*position: absolute;
-    top: 0px;*/
+    position: absolute;
+    top: 0px;
     width: 150px;
 }
 
