@@ -35,7 +35,7 @@ h1, h2, h4, h3 {
 .container {
     float:left;
     background:lightsteelblue;
-    /*padding:138px 0px 0px;*/
+    padding:138px 0px 0px;
     width:100%;
     font-family: 'Rubik';
     font-size: 17px !important;
