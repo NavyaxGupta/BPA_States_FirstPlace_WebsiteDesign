@@ -38,7 +38,7 @@ h1, h2, h4, h3 {
     /*padding:138px 0px 0px;*/
     width:100%;
     font-family: 'Rubik';
-    font-size: 19px;
+    font-size: 17px !important;
 }
 
 .mySlides {
