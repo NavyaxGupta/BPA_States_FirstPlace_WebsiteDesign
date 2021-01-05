@@ -16,13 +16,13 @@
 </head>
 <body>
 
-<div class="header" role="banner">
+<div class="header" role="Banner">
     <span> <a href="index.html"><img class="logo" src="images/BPAlogo2.png" alt="BPA Nationals Logo, NLL 2021"></a></span>
     <h1>Welcome To Orlando</h1>
     <div class="navBar" role="navigation">
         <a href="index.html" class="button"><img src="images/buttons/home.svg" alt="Home icon" width="30" height="30">Home</a>
-        <a href="Attractions-BPA.html" class="button active"><img src="images/buttons/building.svg" alt="Attraction icon" width="30" height="30">Attractions</a>
-        <a href="Dining-BPA.html" class="button"><img src="images/buttons/food.svg" alt="Dining icon" width="30" height="30"> Dining</a>
+        <a href="Attractions-BPA.html" class="button"><img src="images/buttons/building.svg" alt="Attraction icon" width="30" height="30">Attractions</a>
+        <a href="Dining-BPA.html" class="button active"><img src="images/buttons/food.svg" alt="Dining icon" width="30" height="30"> Dining</a>
         <a href="Transport-BPA.html" class="button"><img src="images/buttons/bus-alt.svg" alt="Transport icon" width="30" height="30"> Transport</a>
         <a href="Visit-BPA.html" class="button"><img src="images/buttons/att.svg" alt="visit icon" width="30" height="30"> Visit</a>
     </div>
@@ -31,31 +31,32 @@
 <div class="container" role="main">
 
     <div class="headerLine">
-        <h2>Orlando Attractions</h2>
+        <h2>Orlando Dining</h2>
     </div>
     <div class="sort-row">
 
-        <button class="sort-button" onclick="change_order()">Sort By Rating</button>
-        <button class="sort-button" onclick="change_order_alpha()">Sort by Alphabet</button>
+        <button class="sort-button" onclick="sort_American()">American</button>
+        <button class="sort-button" onclick="sort_Asian()">Asian</button>
+        <button class="sort-button" onclick="sort_Italian()">Italian</button>
+        <button class="sort-button" onclick="sort_African()">African</button>
 
     </div>
+
     <div class="displayinfo">
         <div class="grid-container">
             <div class="grid-item" id="item1">
                 <div class="card">
                     <div class="img">
-                        <a href="https://disneyworld.disney.go.com/destinations/magic-kingdom/?CMP=OKC-80007944_GM_WDW_destination_magickingdompark_NA" target="_blank"> <img src="images/view/BPA24.PNG" alt="Picture of >Magic Kingdom Walt Disney Theme Park" align="center" width="50%" height="50%">
+                        <a href="https://www.ethiopianrestaurantorlando.com/" target="_blank"> <img src="images/view/BPA14.PNG" alt="Food pic, Selam Ethiopian & Eritrean Cuisine" align="center" width="50%" height="50%">
                         </a>
                     </div>
                     <div class="card-body">
-                        <h3>Magic Kingdom</h3>
+                        <h3>Selam Ethiopian & Eritrean Cuisine </h3>
                         <ul class="list-unstyled">
-                            <li><p>Walt Disney’s most visited theme park.
-                            </p></li><br>
-                            <li><b>Rating:</b> 4.7/5</li>
-                            <li><b>Hours Of Operation:</b> 9:00 AM to 6:00 PM</li>
-                            <li><b>Address:</b> 1180 Seven Seas Drive, Lake Buena Vista, FL 32830</li>
-                            <li><a href="https://disneyworld.disney.go.com/destinations/magic-kingdom/?CMP=OKC-80007944_GM_WDW_destination_magickingdompark_NA" target="_blank">Visit Website</a></li>
+                            <li class="">International Ethiopiean and Eritrean</li>
+                            <li><b>Cost:</b> $$</li>
+                            <li><b>Address:</b> 5494 Central Florida Pkwy </li>
+                            <li><a href="https://www.ethiopianrestaurantorlando.com/" class="btn btn-outline-info waves-effect" title="website" target="_blank">Visit Website</a></li>
                         </ul>
                     </div>
                 </div>
@@ -64,17 +65,16 @@
             <div class="grid-item" id="item2">
                 <div class="card">
                     <div class="img">
-                        <a href="https://www.universalorlando.com/web/en/us/theme-parks/universal-studios-florida" target="_blank"> <img src="images/view/BPA25.PNG" alt="Picture of Universal Studios Florida Theme Park" align="center" width="50%" height="50%">
+                        <a href="https://www.aashirwadrestaurant.com/" target="_blank"> <img src="images/view/BPA15.PNG" alt="Food picture, Aashirwad Indian Food and Bar" align="center" width="50%" height="50%">
                         </a>
                     </div>
                     <div class="card-body">
-                        <h3>Universal Studios</h3>
+                        <h3>Aashirwad Indian Food and Bar</h3>
                         <ul class="list-unstyled">
-                            <li><p>Theme park on the entertainment industry     includes spongebob, minions, and sherk!</p></li><br>
-                            <li><b>Rating:</b> 4.7/5</li>
-                            <li><b>Hours Of Operation:</b>  Subject to change</li>
-                            <li><b>Address:</b> 6000 Universal Blvd, Orlando, FL 32819</li>
-                            <li><a href="https://www.universalorlando.com/web/en/us/theme-parks/universal-studios-florida" target="_blank">Visit Website</a></li>
+                            <li class="">International Indian Cuisine</li>
+                            <li><b>Cost:</b> $$</li>
+                            <li><b>Address:</b> 7000 S Kirkman Rd</li>
+                            <li><a href="https://www.aashirwadrestaurant.com/" target="_blank">Visit Website</a></li>
                         </ul>
                     </div>
                 </div>
@@ -83,34 +83,34 @@
             <div class="grid-item" id="item3">
                 <div class="card">
                     <div class="img">
-                        <a href="https://www.universalorlando.com/web/en/us/theme-parks/islands-of-adventure" target="_blank"> <img src="images/view/BPA26.PNG" alt="Picture of Island of adventures" align="center" width="50%" height="50%"></a>
+                        <a href="https://www.mrspotato.net/" target="_blank"> <img src="images/view/BPA16.PNG" alt="Food picture, Mrs Potato Restaurant" align="center" width="50%" height="50%">
+                        </a>
                     </div>
                     <div class="card-body">
-                        <h3>Island of adventures</h3>
+                        <h3>Mrs Potato Restaurant </h3>
                         <ul class="list-unstyled">
-                            <li><p>Themes park includes legends, cartoons, superheroes and Harry Potter.</p></li><br>
-                            <li><b>Rating:</b> 4.8/5</li>
-                            <li><b>Hours Of Operation:</b>  Subject to change</li>
-                            <li><b>Address:</b> Universal Blvd, Orlando, FL 32819</li>
-                            <li><a href="https://www.universalorlando.com/web/en/us/theme-parks/islands-of-adventure" target="_blank">Visit Website</a></li>
+                            <li class="">International Brazilian</li>
+                            <li><b>Cost:</b> $</li>
+                            <li><b>Address:</b> 4550 S Kirkman Rd</li>
+                            <li><a href="https://www.mrspotato.net/" target="_blank">Visit Website</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
 
-            <div class="grid-item" id="item4">
+            <div class="grid-item"id="item4">
                 <div class="card">
                     <div class="img">
-                        <a href="https://www.universalorlando.com/web/en/us/theme-parks/volcano-bay " target="_blank"> <img src="images/view/BPA27.PNG" alt="Picture of Universal’s Volcano Bay" align="center" width="50%" height="50%"></a>
+                        <a href="https://locations.maggianos.com/florida/orlando/9101-international-dr./?utm_source=google&utm_medium=organic&utm_campaign=localmaps" target="_blank"> <img src="images/view/BPA17.PNG" alt="Food pic, Maggiano's Little Italy" align="center" width="50%" height="50%">
+                        </a>
                     </div>
                     <div class="card-body">
-                        <h3>Universal’s Volcano Bay</h3>
+                        <h3>Maggiano's Little Italy</h3>
                         <ul class="list-unstyled">
-                            <li><p>Tropical-themed water park.</p></li><br>
-                            <li><b>Rating:</b> 4.5/5</li>
-                            <li><b>Hours Of Operation:</b>  Subject to change</li>
-                            <li><b>Address:</b> 6000 Universal Blvd, Orlando, FL 32819</li>
-                            <li><a href="https://www.universalorlando.com/web/en/us/theme-parks/volcano-bay " target="_blank">Visit Website</a></li>
+                            <li class="">Classic Italian Cuisine</li>
+                            <li><b>Cost:</b> $$</li>
+                            <li><b>Address:</b> 9101 International Dr </li>
+                            <li><a href="https://locations.maggianos.com/florida/orlando/9101-international-dr./?utm_source=google&utm_medium=organic&utm_campaign=localmaps" target="_blank">Visit Website</a></li>
                         </ul>
                     </div>
                 </div>
@@ -119,16 +119,16 @@
             <div class="grid-item" id="item5">
                 <div class="card">
                     <div class="img">
-                        <a href="https://titanicorlando.com/" target="_blank"> <img src="images/view/BPA28.PNG" alt="Picture of Titanic: The Artifact Exhibition" align="center" width="50%" height="50%"></a>
+                        <a href="https://www.nypdpizzeria.com/" target="_blank"> <img src="images/view/BPA18.PNG" alt="Food pic, NYPD Pizza MetroWest" align="center" width="50%" height="50%">
+                        </a>
                     </div>
                     <div class="card-body">
-                        <h3>Titanic: The Artifact Exhibition</h3>
+                        <h3>NYPD Pizza MetroWest</h3>
                         <ul class="list-unstyled">
-                            <li><p>Titanic artifacts museum with ship re-creations.</p></li><br>
-                            <li><b>Rating:</b> 4.4/5</li>
-                            <li><b>Hours Of Operation:</b> 11AM - 5PM (Last Entrance at 4PM)</li>
-                            <li><b>Address:</b> 7324 International Dr, Orlando, FL 32819</li>
-                            <li><a href="https://titanicorlando.com/" target="_blank">Visit Website</a></li>
+                            <li class="">Casual Pizza Eatery</li>
+                            <li><b>Cost:</b> $$</li>
+                            <li><b>Address:</b> 2589 S Hiawassee Rd</li>
+                            <li><a href="https://www.nypdpizzeria.com/" target="_blank">Visit Website</a></li>
                         </ul>
                     </div>
                 </div>
@@ -137,16 +137,16 @@
             <div class="grid-item" id="item6">
                 <div class="card">
                     <div class="img">
-                        <a href="https://www.hollywooddriveingolf.com/prices.html" target="_blank"> <img src="images/view/BPA29.PNG" alt="Picture of Hollywood Drive-In Golf" align="center" width="50%" height="50%"></a>
+                        <a href="http://www.sushikatana.com/" target="_blank"> <img src="images/view/BPA19.PNG" alt="Food pic, Sushi Katana" align="center" width="50%" height="50%">
+                        </a>
                     </div>
                     <div class="card-body">
-                        <h3>Hollywood Drive-In Golf</h3>
+                        <h3>Sushi Katana</h3>
                         <ul class="list-unstyled">
-                            <li><p>Themed miniature golf includes the 1950’s,    horror, and many more!</p></li><br>
-                            <li><b>Rating:</b> 4.5/5</li>
-                            <li><b>Hours Of Operation:</b> 9AM to 2AM</li>
-                            <li><b>Address:</b> 6000 Universal Boulevard, Orlando, FL 32819</li>
-                            <li><a href="https://www.hollywooddriveingolf.com/prices.html" target="_blank">Visit Website</a></li>
+                            <li class="">Japanese Cuisine</li>
+                            <li><b>Cost:</b> $$</li>
+                            <li><b>Address:</b> 4192 Conroy Rd #103</li>
+                            <li><a href="http://www.sushikatana.com/" target="_blank">Visit Website</a></li>
                         </ul>
                     </div>
                 </div>
@@ -155,16 +155,16 @@
             <div class="grid-item" id="item7">
                 <div class="card">
                     <div class="img">
-                        <a href="https://www.orlandoballoonrides.com/#top" target="_blank"> <img src="images/view/BPA30.PNG" alt="Picture of Orlando Balloon Rides" align="center" width="50%" height="50%"></a>
+                        <a href="https://chuanlugardenorlandofl.com/" target="_blank"> <img src="images/view/BPA20.PNG" alt="Food pic, Chuan Lu Garden Orlando" align="center" width="50%" height="50%">
+                        </a>
                     </div>
                     <div class="card-body">
-                        <h3>Orlando Balloon Rides</h3>
+                        <h3>Chuan Lu Garden Orlando</h3>
                         <ul class="list-unstyled">
-                            <li><p>One of the world's largest operators of      commercial hot air balloons.</p></li><br>
-                            <li><b>Rating:</b> 4.5/5</li>
-                            <li><b>Hours Of Operation:</b> 9AM-7PM</li>
-                            <li><b>Address:</b> 5010 US-27, Clermont, FL 34714</li>
-                            <li><a href="https://www.orlandoballoonrides.com/#top" target="_blank">Visit Website</a></li>
+                            <li class="">Chinese Restaurant</li>
+                            <li><b>Cost:</b> $$</li>
+                            <li><b>Address:</b> 1101 E Colonial Dr</li>
+                            <li><a href="https://chuanlugardenorlandofl.com/" target="_blank">Visit Website</a></li>
                         </ul>
                     </div>
                 </div>
@@ -173,21 +173,16 @@
             <div class="grid-item" id="item8">
                 <div class="card">
                     <div class="img">
-                        <a href="https://andrettikarting.com/orlando/" target="_blank"> <img src="images/view/BPA31.PNG" alt="Picture of Andretti Indoor Karting & Games" align="center" width="50%" height="50%"></a>
+                        <a href="https://www.kresrestaurant.com/" target="_blank"> <img src="images/view/BPA21.PNG" alt="Food pic, Kres Chophouse" align="center" width="50%" height="50%">
+                        </a>
                     </div>
                     <div class="card-body">
-                        <h3>Andretti Indoor Karting & Games</h3>
+                        <h3>Kres Chophouse</h3>
                         <ul class="list-unstyled">
-                            <li><p>Racing, rope courses, Omniverse, laser tag,    arcade, theaters, and more!</p></li><br>
-                            <li><b>Rating:</b> 4.4/5</li>
-                            <li><b>Hours Of Operation:</b><br>
-                                Monday-Thursday: 12:00pm- 12:00am<br>
-                                Friday: 12:00pm - 1:00am<br>
-                                Saturday: 11:00am - 1:00am<br>
-                                Sunday: 11:00am - 12:00am<br>
-                            </li>
-                            <li><b>Address:</b> 9299 Universal Boulevard, Orlando, FL 32819</li>
-                            <li><a href="https://andrettikarting.com/orlando/" target="_blank">Visit Website</a></li>
+                            <li class="">Steakhouse</li>
+                            <li><b>Cost:</b> $$$</li>
+                            <li><b>Address:</b> 17 W Church St</li>
+                            <li><a href="https://www.kresrestaurant.com/" target="_blank">Visit Website</a></li>
                         </ul>
                     </div>
                 </div>
@@ -196,16 +191,16 @@
             <div class="grid-item" id="item9">
                 <div class="card">
                     <div class="img">
-                        <a href="https://disneyworld.disney.go.com/destinations/epcot/?CMP=OKC-80007838_GM_WDW_destination_epcot_NA" target="_blank"> <img src="images/view/BPA32.PNG" alt="Picture of Epcot" align="center" width="50%" height="50%"></a>
+                        <a href="https://www.ritzcarlton.com/en/hotels/florida/orlando/dining/highball-and-harvest?scid=bb1a189a-fec3-4d19-a255-54ba596febe2" target="_blank"> <img src="images/view/BPA22.PNG" alt="Food pic, Highball & Harvest" align="center" width="50%" height="50%">
+                        </a>
                     </div>
                     <div class="card-body">
-                        <h3>Epcot</h3>
+                        <h3>Highball & Harvest</h3>
                         <ul class="list-unstyled">
-                            <li><p>Theme park's 4 worlds include World Discovery, World Celebration, World Nature, World Showcase.</p></li><br>
-                            <li><b>Rating:</b> 4.7/5</li>
-                            <li><b>Hours Of Operation:</b> Subject to change</li>
-                            <li><b>Address:</b> 200 Epcot Center Drive Lake Buena Vista, Orlando, FL 32821</li>
-                            <li><a href="https://disneyworld.disney.go.com/destinations/epcot/?CMP=OKC-80007838_GM_WDW_destination_epcot_NA" target="_blank">Visit Website</a></li>
+                            <li class="">Floridian restaurant</li>
+                            <li><b>Cost:</b> $$$</li>
+                            <li><b>Address:</b> 4012 Central Florida Pkwy</li>
+                            <li><a href="https://www.ritzcarlton.com/en/hotels/florida/orlando/dining/highball-and-harvest?scid=bb1a189a-fec3-4d19-a255-54ba596febe2" target="_blank">Visit Website</a></li>
                         </ul>
                     </div>
                 </div>
@@ -214,24 +209,16 @@
             <div class="grid-item" id="item10">
                 <div class="card">
                     <div class="img">
-                        <a href="https://www.iflyworld.com/" target="_blank"> <img src="images/view/BPA33.PNG" alt="Picture of iFLY indoor sky-diving" align="center" width="50%" height="50%"></a>
+                        <a href="https://www.theospreyorlando.com/" target="_blank"> <img src="images/view/BPA23.PNG" alt="Food pic, The Osprey" align="center" width="50%" height="50%">
+                        </a>
                     </div>
                     <div class="card-body">
-                        <h3>iFLY indoor sky-diving</h3>
+                        <h3>The Osprey</h3>
                         <ul class="list-unstyled">
-                            <li><p>Fly on a cushion of air at this indoor skydiving  center.</p></li><br>
-                            <li><b>Rating:</b> 4.7/5</li>
-                            <li><b>Hours Of Operation:</b><br>
-                                Monday: 11AM – 7PM<br>
-                                Tuesday: closed <br>
-                                Wednesday: 11AM – 7PM<br>
-                                Thursday: 11AM – 7PM<br>
-                                Friday: 11AM – 9PM<br>
-                                Saturday: 9AM – 11PM<br>
-                                Sunday: 9AM – 9PM<br>
-                            </li>
-                            <li><b>Address:</b> 8969 International Dr, Orlando, FL 32819</li>
-                            <li><a href="https://www.iflyworld.com/" target="_blank">Visit Website</a></li>
+                            <li class="">Seafood Restaurant</li>
+                            <li><b>Cost:</b> $$$</li>
+                            <li><b>Address:</b> 4899 New Broad St</li>
+                            <li><a href="https://www.theospreyorlando.com/" target="_blank">Visit Website</a></li>
                         </ul>
                     </div>
                 </div>
@@ -240,19 +227,155 @@
             <div class="grid-item" id="item11">
                 <div class="card">
                     <div class="img">
-                        <a href="https://www.simon.com/mall/the-florida-mall" target="_blank"> <img src="images/view/BPA34.PNG" alt="Picture of The Florida Mall" align="center" width="50%" height="50%"></a>
+                        <a href="http://www.nileorlando.com/" target="_blank"> <img src="images/view/BPA40.PNG" alt="Food pic, Nile Ethiopian Restaurant" align="center" width="50%" height="50%">
+                        </a>
                     </div>
                     <div class="card-body">
-                        <h3>The Florida Mall</h3>
+                        <h3>Nile Ethiopian Restaurant</h3>
                         <ul class="list-unstyled">
-                            <li><p>Buzzing shopping-mall with a wide selection of stores and a food-court.</p></li><br>
-                            <li><b>Rating:</b> 4.5/5</li>
-                            <li><b>Hours Of Operation:</b><br>
-                                Monday-Saturday: 10:00AM - 9:00PM<br>
-                                Sunday: 12:00PM - 7:00PM<br>
-                            </li>
-                            <li><b>Address:</b> 8001 S Orange Blossom Trail, Orlando, FL 32809</li>
-                            <li><a href="https://www.simon.com/mall/the-florida-mall" target="_blank">Visit Website</a></li>
+                            <li class="">Ethiopian Restaurant</li>
+                            <li><b>Cost:</b> $$</li>
+                            <li><b>Address:</b> 7048 International Dr, Orlando, FL 32819</li>
+                            <li><a href="http://www.nileorlando.com/" target="_blank">Visit Website</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-item" id="item12">
+                <div class="card">
+                    <div class="img">
+                        <a href="https://www.flavorsnigerian.com/menu.aspx" target="_blank"> <img src="images/view/BPA42.PNG" alt="Food pic, Flavors Nigerian Restaurant"align="center" width="50%" height="50%">
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h3>Flavors Nigerian Restaurant</h3>
+                        <ul class="list-unstyled">
+                            <li class="">Nigerian Cuisine</li>
+                            <li><b>Cost:</b> $$</li>
+                            <li><b>Address:</b> 3530 S Orange Ave</li>
+                            <li><a href="https://www.flavorsnigerian.com/menu.aspx" target="_blank">Visit Website</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-item" id="item13">
+                <div class="card">
+                    <div class="img">
+                        <a href="https://frescoorlando.com/" target="_blank"> <img src="images/view/BPA47.PNG" alt="Food pic, Fresco Cucina Italiana" align="center" width="50%" height="50%"></a>
+                    </div>
+                    <div class="card-body">
+                        <h3>Fresco Cucina Italiana</h3>
+                        <ul class="list-unstyled">
+                            <li class="">Italian Restaurant</li>
+                            <li><b>Cost:</b> $$</li>
+                            <li>7<b>Address:</b> 721 Turkey Lake Rd</li>
+                            <li><a href="https://frescoorlando.com/" target="_blank">Visit Website</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-item" id="item14">
+                <div class="card">
+                    <div class="img">
+                        <a href="https://www.thaihouseoforlando.net/" target="_blank"> <img src="images/view/BPA45.PNG" alt="Food pic, Thai House of Orlando Restaurant" align="center" width="50%" height="50%"></a>
+                    </div>
+                    <div class="card-body">
+                        <h3>Thai House of Orlando Restaurant</h3>
+                        <ul class="list-unstyled">
+                            <li class="">Thai Restaurant</li>
+                            <li><b>Cost:</b> $$</li>
+                            <li><b>Address:</b> 2117 E Colonial Dr</li>
+                            <li><a href="https://www.thaihouseoforlando.net/" target="_blank">Visit Website</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-item" id="item15">
+                <div class="card">
+                    <div class="img">
+                        <a href="http://www.ilpescatoreonline.com/index.html" target="_blank"> <img src="images/view/BPA46.PNG" alt="Food pic, IL Pescatore" align="center" width="50%" height="50%"></a>
+                    </div>
+                    <div class="card-body">
+                        <h3>IL Pescatore</h3>
+                        <ul class="list-unstyled">
+                            <li class="">Italian Restaurant</li>
+                            <li><b>Cost:</b> $$</li>
+                            <li><b>Address:</b> 651 Primrose Dr</li>
+                            <li><a href="http://www.ilpescatoreonline.com/index.html" target="_blank">Visit Website</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-item" id="item16">
+                <div class="card">
+                    <div class="img">
+                        <a href="https://www.bocasgrill.com/" target="_blank"> <img src="images/view/BPA51.PNG" alt="Food pic, Bocas Grill Orlando" align="center" width="50%" height="50%">
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h3>Bocas Grill Orlando </h3>
+                        <ul class="list-unstyled">
+                            <li class="">Latin American</li>
+                            <li><b>Cost:</b> $</li>
+                            <li><b>Address:</b> 7600 Dr Phillips Blvd #22</li>
+                            <li><a href="https://www.bocasgrill.com/" target="_blank">Visit Website</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-item" id="item17">
+                <div class="card">
+                    <div class="img">
+                        <a href="http://aapnaparivaarorlando.com/" target="_blank"> <img src="images/view/BPA50.PNG" alt="Food pic, Aapna Parivaar" align="center" width="50%" height="50%"></a>
+                    </div>
+                    <div class="card-body">
+                        <h3>Aapna Parivaar</h3>
+                        <ul class="list-unstyled">
+                            <li class="">Northern Indian Cuisine</li>
+                            <li><b>Cost:</b> $$</li>
+                            <li><b>Address:</b> 5135 International Dr #6</li>
+                            <li><a href="http://aapnaparivaarorlando.com/" target="_blank">Visit Website</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-item" id="item18">
+                <div class="card">
+                    <div class="img">
+                        <a href="https://www.tamaleco.com/" target="_blank"> <img src="images/view/BPA49.PNG" alt="Food pic, Tamale Co. Mexican Street Food Hourglass" align="center" width="50%" height="50%"></a>
+                    </div>
+                    <div class="card-body">
+                        <h3>Tamale Co. Mexican Street Food Hourglass</h3>
+                        <ul class="list-unstyled">
+                            <li class="">Mexican Street Food Eatery</li>
+                            <li><b>Cost:</b> $$$</li>
+                            <li><b>Address:</b> 2411 Curry Ford Rd</li>
+                            <li><a href="https://www.tamaleco.com/" target="_blank">Visit Website</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-item" id="item19">
+                <div class="card">
+                    <div class="img">
+                        <a href="https://bombaycafeorlando.net/" target="_blank"> <img src="images/view/BPA41.PNG" alt="Food pic, Bombay Cafe" align="center" width="50%" height="50%">
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h3>Bombay Cafe</h3>
+                        <ul class="list-unstyled">
+                            <li class="">South Indian Restaurant</li>
+                            <li><b>Cost:</b> $$</li>
+                            <li><b>Address:</b> 1137 Doss Ave #1155</li>
+                            <li><a href="https://bombaycafeorlando.net/" target="_blank">Visit Website</a></li>
                         </ul>
                     </div>
                 </div>
@@ -261,19 +384,18 @@
         </div>
     </div>
 </div>
-
 <div class="footer" role="contentinfo">
     <div class="quote">
-        <p class="quoteText"><b> Did you know Walt Disney World opened in 1971? That is, 15 years after Walt Disney passed away!</b></p>
+        <p class="quoteText"><b>Did you know that Orlando is home to the world's largest McDonald's? The McDonald's has a unique menu that includes waffles, brick-oven pizza and made-to-order omelets. </b></p>
     </div>
     <div class="footergrid-container">
         <div class="footergrid-item"> <h2 style="text-align: left">Site Map</h2><br>
             <ul>
-                <ul><a href="index.html" title="Home Link">Home</a></ul>
-                <ul><a href="Attractions-BPA.html" title="Attractions Link">Attractions</a></ul>
-                <ul><a href="Dining-BPA.html" title="Dining Link">Food</a></ul>
-                <ul><a href="Transport-BPA.html" title="Transport Link">Transport</a></ul>
-                <ul><a href="Visit-BPA.html" title="Visit Link">Visit</a></ul>
+                <li><a href="index.html" title="Home Link">Home</a></li>
+                <li><a href="Attractions-BPA.html" title="Attractions Link">Attractions</a></li>
+                <li><a href="Dining-BPA.html" title="Dining Link">Food</a></li>
+                <li><a href="Transport-BPA.html" title="Transport Link">Transport</a></li>
+                <li><a href="Visit-BPA.html" title="Visit Link">Visit</a></li>
             </ul></div>
         <div class="footergrid-item"><h2>About Us</h2><br>
             <p>We are a team of students from Okemos High School in Michigan.
@@ -286,6 +408,7 @@
         <p class="CopyrightText">&copy; Okemos High School Team</p>
     </div>
 </div>
+
 
 </body>
 </html>
