@@ -290,3 +290,35 @@ button{
         top:30%;
     }
 }
+
+
+aside {
+    background: rgb(255, 77, 77);
+    padding: 10px 10px;
+    border-radius: 3px;
+    color: white;
+    font-size: 16px;
+}
+textarea {
+    width: 100%;
+}
+.pure-group, .thankyou_message{ font-size: 16px; }
+
+.button-success {
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: rgb(255, 77, 77);
+}
+
+button {
+    font-size: 16px;
+    float: right;
+    padding: 10px 10px;
+}
+#name, #email {
+    width: 75%;
+}
+.honeypot-field {
+    display: none;
+}
