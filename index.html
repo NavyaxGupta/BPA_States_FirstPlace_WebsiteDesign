@@ -12,6 +12,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@450&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script data-cfasync="false" src="form-submission-handler.js"></script>
     <script defer src="main.js"></script>
 </head>
 <body>
@@ -59,7 +62,52 @@
             <p>We are a team of students from Okemos High School in Michigan.
                 We are highly interested in the technology field and are glad to have had the opportunity to pursue our future interests in this project<br>
                 <a href="about.html">Learn more about us</a>
-            </p></div>
+            </p>
+        </div>
+
+        <div>
+
+        <h2 >Contact Us</h2>
+        <aside>
+            <p> We would love to hear from you, please send us a message! </p>
+        </aside>
+
+        <form class="gform pure-form pure-form-stacked" method="POST" data-email="okemosBPA2021@gmail.com"
+              action="https://script.google.com/macros/s/AKfycbxsfJ8ZfWfHzDDsuFjzo_POGy1PbqjPIvKwNv8WT7hQqyvV2hA/exec">
+
+            <div class="form-elements">
+                <fieldset class="pure-group">
+                    <label for="name">Name: </label>
+                    <input id="name" name="name" placeholder="Enter name" />
+                </fieldset>
+
+                <fieldset class="pure-group">
+                    <label for="email">Your Email Address:</label>
+                    <input id="email" name="email" type="email" value=""
+                           required placeholder="Enter email address"/>
+                </fieldset>
+
+                <fieldset class="pure-group">
+                    <label for="message">Message: </label>
+                    <textarea id="message" name="message" rows="10"
+                              placeholder="Tell us what's on your mind..."></textarea>
+                </fieldset>
+
+                <fieldset class="pure-group honeypot-field">
+                    <label for="honeypot">Honeypot, a technique to help avoid spam with a hidden text field, must be empty to submit the form! Otherwise, we assume the user is a spam bot.</label>
+                    <input id="honeypot" type="text" name="honeypot" value="" />
+                </fieldset>
+
+                <button class="button-success pure-button button-xlarge">
+                    <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
+            </div>
+
+            <div class="thankyou_message" style="display:none;">
+                Thanks for contacting us!<br>We will get back to you soon!
+            </div>
+
+        </form>
+    </div>
     </div>
 
 </div>
