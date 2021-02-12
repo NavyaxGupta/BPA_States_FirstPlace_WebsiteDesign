@@ -11,7 +11,7 @@ h1{
     font-family: 'Commissioner';
     font-size: 50px;
 }
-h1, h2, h4, h3 {
+h1, h2, h4, h3{
     text-align: center;
 }
 
@@ -291,14 +291,14 @@ button{
     }
 }
 
-
 aside {
     background: rgb(255, 77, 77);
     padding: 10px 10px;
     border-radius: 3px;
     color: white;
-    font-size: 16px;
+    font-size: 18px;
 }
+
 textarea {
     width: 100%;
 }
@@ -309,16 +309,15 @@ textarea {
     border-radius: 4px;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
     background: rgb(255, 77, 77);
-}
-
-button {
-    font-size: 16px;
+    font-size: 18px;
     float: right;
     padding: 10px 10px;
 }
+
 #name, #email {
-    width: 75%;
+    width: 100%;
 }
 .honeypot-field {
     display: none;
 }
+
