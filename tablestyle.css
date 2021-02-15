@@ -19,10 +19,16 @@
     grid-gap: 1rem;
 }
 
+.grid-container-transport {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto;
+    background-color: lightsteelblue;
+    padding: 17px;
+}
+
 .grid-item {
     background-color: aliceblue;
-    /*border-radius: 20px; */
-    /*border: 1px solid black;*/
     padding: 20px;
     font-size: 20px;
     text-align: left;
@@ -41,11 +47,6 @@
     max-width: 100%;
 }
 
-/*
-.img{
-    height: 200%;
-    width: 200%;
-}*/
 
 .sort-button {
     background-color: rgb(255, 77, 77);
@@ -87,4 +88,21 @@
     font-size: 20px;
     margin-bottom:5px;
     margin-left: 5px;
+}
+
+.button-visit {
+    background-color: rgb(255, 77, 77);
+    border: 1px solid rgb(0, 0, 102);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-font: 'Rubik' !important;
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom:5px;
+}
+.button-visit:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
