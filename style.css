@@ -8,7 +8,7 @@ body{
     overflow-x: hidden;
 }
 h1{
-    font-family: 'Commissioner';
+    font-family: 'Rubik';
     font-size: 50px;
 }
 h1, h2, h4, h3{
@@ -46,30 +46,6 @@ h1, h2, h4, h3{
     /* height: 500px - removed to correct the home images correct size */
 }
 
-.w3-content{
-    padding-right: 0px
-}
-
-.w3-button{
-    border:1px;
-    display:inline-block;
-    padding:8px 10px;
-    vertical-align:middle;
-    cursor:pointer;
-}
-
-.w3-button:hover{
-    color:#000;
-    background-color:#ccc;
-}
-
-.w3-display-left{
-    position:absolute;top:47%;left:1%;
-}
-
-.w3-display-right{
-    position:absolute;top:47%;right:1%;
-}
 img{
     padding: 0px;
 }
@@ -85,19 +61,20 @@ img{
 .button {
     background-color: #fbfbfb;
     color: black;
-    padding: 4px 10px;
+    padding: 10px;
     text-align: left;
+    align-items: stretch;
     text-decoration: none;
     display: inline-block;
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Rubik';
     margin: 4px 10px;
     cursor: pointer;
-    border-radius: 6px;
+    border-radius: 16px;
     border: 1px solid black;
     width: 40%;
-    /* min-width: 180px; removed not to set minimum width */
-    height: 40px;
+    /*min-width: 180px; removed not to set minimum width */
+    height: 28px;
 }
 
 .button:hover, .button.active {
@@ -306,12 +283,11 @@ textarea {
 
 .button-success {
     color: white;
-    border-radius: 4px;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
     background: rgb(255, 77, 77);
     font-size: 18px;
     float: right;
-    padding: 10px 10px;
+    padding: 6px 6px;
 }
 
 #name, #email {
