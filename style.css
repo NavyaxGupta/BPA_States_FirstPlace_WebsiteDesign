@@ -66,7 +66,7 @@ img{
     align-items: stretch;
     text-decoration: none;
     display: inline-block;
-    font-size: 21px;
+    font-size: 20px;
     font-family: 'Rubik';
     margin: 5px;
     cursor: pointer;
@@ -118,6 +118,7 @@ img{
     font-family: 'Rubik';
     color: white;
     font-size: 17px;
+    margin: 50px;
 }
 
 .mapspage ul, .mapspage p {
