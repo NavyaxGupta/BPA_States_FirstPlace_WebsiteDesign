@@ -67,7 +67,6 @@ img{
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-    font-family: 'Rubik';
     margin: 5px;
     cursor: pointer;
     border-radius: 16px;
@@ -232,9 +231,6 @@ a:focus, button:focus, a:focus img.logo{
     outline: 2px solid red;
 }
 
-button{
-    font-family: 'Rubik';
-}
 
 /* Responsive layout - makes a one column layout instead of a two-column layout */
 @media (max-width: 1000px) {
