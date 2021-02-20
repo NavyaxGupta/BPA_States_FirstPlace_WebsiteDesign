@@ -19,20 +19,11 @@
     grid-gap: 1rem;
 }
 
-.grid-container-transport {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: auto;
-    background-color: lightsteelblue;
-    padding: 17px;
-}
-
 .grid-item {
     background-color: aliceblue;
     padding: 20px;
-    font-size: 20px;
+    font-size: 18px;
     text-align: left;
-    font-family: 'Rubik';
 }
 .list-unstyled {
     list-style: none;
@@ -51,6 +42,9 @@
     box-shadow: 0 5px 5px 0 rgba(0,0,0,0.07), 0 5px 5px 0 rgba(0,0,0,0.07), 0 5px 5px 0 rgba(0,0,0,0.07), 0 5px 5px 0 rgba(0,0,0,0.07);
 }
 
+h3{
+    font-size: 19px;
+}
 .sort-button {
     background-color: rgb(255, 77, 77);
     border: 1px solid rgb(0, 0, 102);
@@ -59,9 +53,8 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    text-font: 'Rubik' !important;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom:5px;
 }
 .sort-button:hover {
@@ -80,7 +73,7 @@
 #top-button {
     display: none;
     position: fixed;
-    bottom: 20px;
+    bottom: 150px;
     right: 0;
     z-index: 99;
     background-color: rgb(0, 0, 102);
@@ -88,8 +81,8 @@
     color: white;
     text-decoration: none;
     font-weight: normal;
-    font-size: 20px;
-    padding: 5px 10px;
+    font-size: 40px;
+    padding: 2px 10px;
 }
 
 
@@ -104,7 +97,7 @@
     display: inline-block;
     text-font: 'Rubik' !important;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom:5px;
 }
 .button-visit:hover {
