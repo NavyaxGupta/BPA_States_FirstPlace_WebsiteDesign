@@ -265,3 +265,11 @@ function sort_African(){
     document.getElementById("item17").style.display= "none";
     document.getElementById("item19").style.display= "none";
 }
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
