@@ -10,7 +10,8 @@ body{
 h1{
     font-family: 'Rubik';
     font-size: 45px;
-    margin-top: 22px;
+    margin-top: 23px;
+    margin-bottom: 5px;
 }
 h1, h2, h4, h3{
     text-align: center;
