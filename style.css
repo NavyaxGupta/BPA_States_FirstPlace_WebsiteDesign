@@ -36,7 +36,7 @@ h1, h2, h4, h3{
 .container {
     float:left;
     background:lightsteelblue;
-    padding:130px 0px 0px;
+    padding:123px 0px 0px;
     width:100%;
     font-family: 'Rubik';
     font-size: 17px !important;
@@ -104,7 +104,8 @@ img{
 
 .footergrid-container {
     display: grid;
-    grid-template-columns: 40% auto;
+    /*grid-template-columns: 40% auto;*/
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     background-color: rgb(0, 0, 102);
     padding: 10px;
     font-family: 'Rubik';
@@ -113,14 +114,17 @@ img{
 }
 .footergrid-item {
     background-color: rgb(0, 0, 102);
-    /* border: 1px solid rgba(0, 0, 0, 0.8); */
-    padding: 30px;
+    /* border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 30px; */
     font-family: 'Rubik';
     color: white;
     font-size: 17px;
-    margin: 50px;
+    margin: 10px 20px;
 }
-
+.contactMessage{
+    margin:15px 0px;
+    text-align: left;
+}
 .mapspage ul, .mapspage p {
     background-color: rgb(0, 0, 102);
     color: #fff;
@@ -143,26 +147,19 @@ img{
     color: #FF8566;
 }
 
-.grid-item a:link {
-    color: #A32100;
-}
 
-/* visited link info */
-.grid-item a:visited {
-    color: rgb(0, 0, 77);
-}
 /* visited link */
 .footergrid-item a:visited, .mapspage a:visited {
     color: lightsteelblue;
 }
 
 /* mouse over link */
-.grid-item a:hover, .footergrid-item a:hover, .mapspage a:hover {
+.footergrid-item a:hover, .mapspage a:hover {
     color: rgb(36, 143, 36);
 }
 
 
-li span.bold {
+    li span.bold {
     font-weight: bold;
 }
 
@@ -200,34 +197,6 @@ li span.bold {
     border-bottom: 8px solid rgb(255, 77, 77);
 }
 
-/* Copyright Statement */
-.copyright{
-    clear: both;
-    overflow: auto;
-    color: midnightblue;
-    background-color: #fbfbfb;
-    font-size: 16px;
-    font-family: 'Rubik';
-}
-.CopyrightText{
-    float: right;
-    padding: 5px 10px;
-}
-
-/* Facts */
-
-.quote{
-    clear: both;
-    overflow: auto;
-    color: rgb(0, 0, 102);
-    background-color: aliceblue;
-    font-size: 30px;
-    font-family: Parisienne;
-}
-.quoteText{
-    text-align: center;
-    padding: 20px;
-}
 a:focus, button:focus, a:focus img.logo{
     outline: 2px solid red;
 }
@@ -235,8 +204,11 @@ a:focus, button:focus, a:focus img.logo{
 
 /* Responsive layout - makes a one column layout instead of a two-column layout */
 @media (max-width: 1000px) {
-    .navBar a img {
+    .topnav a img {
         display:none;
+    }
+    .navbutton {
+        width:14% !important;
     }
     h1{
         font-size:30px;
@@ -249,10 +221,10 @@ a:focus, button:focus, a:focus img.logo{
     }
 }
 @media (max-width: 800px) {
-    .button {
+    .navbutton {
         font-size:20px;
         margin:5px 5px 5px 5px;
-        height: 30px;
+        /* height: 30px; */
         padding: 8px 10px;
     }
     h1{
@@ -294,3 +266,81 @@ textarea {
 .honeypot-field {
     display: none;
 }
+/* responsive navigation */
+.topnav {
+    overflow: hidden;
+    background-color: aliceblue;
+
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 12px 15px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.topnav a:hover {
+    background-color: rgb(255, 77, 77);
+    color: aliceblue;
+}
+
+.navbutton {
+    background-color: white;
+    color: black;
+    padding: 6px;
+    text-align: left !important;
+    align-items: stretch;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid black;
+    width: 16%;
+}
+.navbutton img { float:right;border: none;}
+.topnav a.active {
+    background-color: rgb(255, 77, 77);
+    color: white !important;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    .navbutton {width:auto !important;}
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+        float: right;
+        display: block;
+        right: 5px;
+        border:1px solid black;
+        border-radius: 5px;
+        margin-top:5px;
+    }
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 5px;
+        top: 0;
+        background-color: rgb(255, 77, 77);
+        color:white;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .navbutton{
+        width:14%;
+    }
+}
+/*end responsive navigation */
