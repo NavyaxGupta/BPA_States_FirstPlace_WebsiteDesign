@@ -145,9 +145,8 @@ img{
 
 /* unvisited link */
 .footergrid-item a:link, .mapspage a:link {
-    color: #FF8566;
+    color: rgb(255, 77, 77);
 }
-
 
 /* visited link */
 .footergrid-item a:visited, .mapspage a:visited {
