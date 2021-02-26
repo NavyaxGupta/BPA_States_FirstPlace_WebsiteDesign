@@ -194,13 +194,13 @@ li span.bold {
 #about {
     width: 75%;
     padding: 20px;
-    color: white;
+    color: rgb(0,0,120);
     text-align: center;
     margin: auto;
     margin-top: 25px;
     margin-bottom: 25px;
-    background-color: #000066;
-    border-bottom: 8px solid rgb(255, 77, 77);
+    background-color: aliceblue;
+    border-bottom: 8px solid rgb(0, 0, 120);
 }
 
 a:focus, button:focus, a:focus img.logo{
