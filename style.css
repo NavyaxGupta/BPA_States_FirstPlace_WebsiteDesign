@@ -160,28 +160,33 @@ img{
 }
 
 
-    li span.bold {
+li span.bold {
     font-weight: bold;
 }
 
 #team {
-    width: 70%;
+    width: 60%;
     margin: auto;
     margin-top: 25px;
     display: flex; flex-direction: row;
 }
 
 #team div {
-    text-align: left;
+    text-align: center;
     background-color: #000066;
     color: white;
     width: 45%;
-    padding: 20px 20px;
+    height: 30%;
+    padding: 16px 16px;
     margin-right: auto;
     border-bottom: 8px solid rgb(255, 77, 77);
 }
 
-#about hr {
+#team img{
+    margin: 20px;
+}
+
+#about hr, #team hr {
     height: 5px;
     background-color: aliceblue;
 }
