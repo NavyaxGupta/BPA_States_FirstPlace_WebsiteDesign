@@ -179,7 +179,7 @@ li span.bold {
     height: 30%;
     padding: 3px 0px;
     margin-right: auto;
-    border-bottom: 8px solid rgb(0, 0, 120);
+    border-bottom: 8px solid rgb(0, 0, 102);
 }
 
 #team img{
@@ -188,19 +188,19 @@ li span.bold {
 
 #about hr, #team hr {
     height: 5px;
-    background-color: rgb(0,0,120);
+    background-color: rgb(0,0,102);
 }
 
 #about {
     width: 75%;
     padding: 20px;
-    color: rgb(0,0,120);
+    color: rgb(0,0,102);
     text-align: center;
     margin: auto;
     margin-top: 25px;
     margin-bottom: 25px;
     background-color: aliceblue;
-    border-bottom: 8px solid rgb(0, 0, 120);
+    border-bottom: 8px solid rgb(0, 0, 102);
 }
 
 a:focus, button:focus, a:focus img.logo{
