@@ -217,7 +217,7 @@ a:focus, button:focus, a:focus img.logo{
         width:14% !important;
     }
     h1{
-        font-size:40px;
+        font-size:35px;
         text-align:right !important;
         margin:21px 10px 10px 0px;
         font-weight:bold;
@@ -228,7 +228,7 @@ a:focus, button:focus, a:focus img.logo{
 }
 @media (max-width: 800px) {
     .navbutton {
-        font-size:35px;
+        font-size:30px;
         margin:5px 5px 5px 5px;
         /* height: 30px; */
         padding: 8px 10px;
