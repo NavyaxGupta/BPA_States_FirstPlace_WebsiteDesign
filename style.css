@@ -145,7 +145,7 @@ img{
 
 /* unvisited link */
 .footergrid-item a:link, .mapspage a:link {
-    color: #FF8566;
+    color: rgb(255, 77, 77);
 }
 
 
@@ -173,13 +173,13 @@ li span.bold {
 
 #team div {
     text-align: center;
-    background-color: #000066;
-    color: white;
+    background-color: aliceblue;
+    color: rgb(0, 0, 102);
     width: 45%;
     height: 30%;
-    padding: 16px 16px;
+    padding: 3px 0px;
     margin-right: auto;
-    border-bottom: 8px solid rgb(255, 77, 77);
+    border-bottom: 8px solid rgb(0, 0, 102);
 }
 
 #team img{
@@ -188,19 +188,19 @@ li span.bold {
 
 #about hr, #team hr {
     height: 5px;
-    background-color: aliceblue;
+    background-color: rgb(0,0,102);
 }
 
 #about {
     width: 75%;
     padding: 20px;
-    color: white;
+    color: rgb(0,0,102);
     text-align: center;
     margin: auto;
     margin-top: 25px;
     margin-bottom: 25px;
-    background-color: #000066;
-    border-bottom: 8px solid rgb(255, 77, 77);
+    background-color: aliceblue;
+    border-bottom: 8px solid rgb(0, 0, 102);
 }
 
 a:focus, button:focus, a:focus img.logo{
@@ -228,13 +228,13 @@ a:focus, button:focus, a:focus img.logo{
 }
 @media (max-width: 800px) {
     .navbutton {
-        font-size:30px;
+        font-size:20px;
         margin:5px 5px 5px 5px;
         /* height: 30px; */
         padding: 8px 10px;
     }
     h1{
-        font-size:28px;
+        font-size:24px;
         text-align:right !important;
         margin:32px 10px 10px 0px;
         font-weight:bold;
