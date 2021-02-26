@@ -173,13 +173,13 @@ li span.bold {
 
 #team div {
     text-align: center;
-    background-color: #000066;
-    color: white;
+    background-color: aliceblue;
+    color: rgb(0, 0, 102);
     width: 45%;
     height: 30%;
-    padding: 16px 16px;
+    padding: 14px -28px;
     margin-right: auto;
-    border-bottom: 8px solid rgb(255, 77, 77);
+    border-bottom: 8px solid rgb(0, 0, 120);
 }
 
 #team img{
