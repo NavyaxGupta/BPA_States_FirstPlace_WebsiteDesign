@@ -141,6 +141,14 @@ img{
     margin-bottom: 36px;
 }
 
+.textBox{
+    margin: 20px 20px 20px 20px;
+    background-color: aliceblue;
+    padding: 40px;
+    font-size: 16px;
+    color: rgb(0, 0, 102);
+}
+
 
 /* unvisited link */
 .footergrid-item a:link, .mapspage a:link {
