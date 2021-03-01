@@ -43,7 +43,7 @@ function myFunction() {
     }
 }
 
-function FunctionHide() {
+function myHideFunction() {
   var x = document.getElementById("myMessage");
   if (x.style.display === "none") {
     x.style.display = "block";
