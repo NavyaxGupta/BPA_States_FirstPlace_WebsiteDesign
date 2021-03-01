@@ -224,7 +224,7 @@ a:focus, button:focus, a:focus img.logo{
     .topnav a img {
         display:none;
     }
-    
+
     .navbutton {
         width:14% !important;
     }
@@ -318,10 +318,10 @@ textarea {
     font-size: 20px;
     margin: 5px;
     cursor: pointer;
-    border-radius: 16px;
+    border-radius: 8px;
     border: 1px solid black;
     width: 40%;
-    height: 28px;
+    height: 27px;
 }
 .navbutton img {
     float:right;
@@ -336,9 +336,8 @@ textarea {
 .topnav .icon {
     display: none;
 }
-.fa-bars{
-    float: left;
-}
+
+
 legend{margin:10px;}
 .mandatory{font-size:0.8em; font-style:italic; color:lightsteelblue;}
 .mancolor{font-weight:bold;vertical-align:super;color:lightsteelblue;}
