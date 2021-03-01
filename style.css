@@ -371,8 +371,13 @@ legend{margin:10px;}
 }
 
 @media screen and (max-width: 1200px) {
-    .navbutton{
-        width:14%;
+
+    .topnav.responsive{
+        display: block;
+    }
+
+    .navBar.responsive{
+        display: inline-block;
     }
 }
 /*end responsive navigation */
