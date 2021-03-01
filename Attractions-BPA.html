@@ -38,13 +38,13 @@
     <div class="headerLine">
         <h2>Orlando Attractions</h2>
     </div>
-    <div class="sort-row">
 
+    <div class="sort-row">
         <a class="sort-button active" href="Attractions-BPA.html">Sort by Relevance</a>
         <a class="sort-button" href="AttractionsByRating.html">Sort By Rating</a>
         <a class="sort-button" href="AttractionsByAlpha.html">Sort by Alphabet</a>
-
     </div>
+
     <button onclick="topFunction()" id="top-button" title="Go to top">&#8679;</button>
     <div class="displayinfo">
         <div class="grid-container">
@@ -300,36 +300,36 @@
         <div class="footergrid-item">
 
             <h2 style="text-align: left">Contact Us</h2>
-            <p class="contactMessage"> We would love to hear from you, please send us a message! </p>
-
+            <div id="myMessage">
+                <span class="mandatory"><span class="mancolor">*</span>=Mandatory</span>
+                <p class="contactMessage"> We would love to hear from you, please send us a message! </p>
+            </div>
+            </br>
             <form class="gform pure-form pure-form-stacked" method="POST" data-email="okemosBPA2021@gmail.com"
                   action="https://script.google.com/macros/s/AKfycbxsfJ8ZfWfHzDDsuFjzo_POGy1PbqjPIvKwNv8WT7hQqyvV2hA/exec">
 
                 <div class="form-elements">
                     <fieldset class="pure-group">
+                        <legend>Please Provide Your Information</legend>
                         <label for="name">Name: </label>
                         <input id="name" name="name" placeholder="Enter name" />
-                    </fieldset>
 
-                    <fieldset class="pure-group">
-                        <label for="email">Your Email Address:</label>
-                        <input id="email" name="email" type="email" value=""
+                        <label for="email">Your Email Address<span class="mancolor">*</span>:</label>
+                        <input id="email" name="email" type="email" value="" aria-required="true"
                                required placeholder="Enter email address"/>
-                    </fieldset>
 
-                    <fieldset class="pure-group">
                         <label for="message">Message: </label>
                         <textarea id="message" name="message" rows="10"
                                   placeholder="Tell us what's on your mind..."></textarea>
-                    </fieldset>
 
-                    <fieldset class="pure-group honeypot-field">
-                        <label for="honeypot">Honeypot, a technique to help avoid spam with a hidden text field, must be empty to submit the form! Otherwise, we assume the user is a spam bot.</label>
-                        <input id="honeypot" type="text" name="honeypot" value="" />
+                        <p class="honeypot-field">
+                            <label for="honeypot">Honeypot, a technique to help avoid spam with a hidden text field, must be empty to submit the form! Otherwise, we assume the user is a spam bot.</label>
+                            <input id="honeypot" type="text" name="honeypot" value="" />
+                        </p>
                     </fieldset>
-
-                    <button class="button-success pure-button button-xlarge">
+                    <button class="button-success pure-button button-xlarge" onclick="myHideFunction()">
                         <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
+
                 </div>
 
                 <div class="thankyou_message" style="display:none;">
