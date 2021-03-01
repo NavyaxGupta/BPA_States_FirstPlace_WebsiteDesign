@@ -224,6 +224,7 @@ a:focus, button:focus, a:focus img.logo{
     .topnav a img {
         display:none;
     }
+    
     .navbutton {
         width:14% !important;
     }
@@ -244,6 +245,7 @@ a:focus, button:focus, a:focus img.logo{
         /* height: 30px; */
         padding: 8px 10px;
     }
+
     h1{
         font-size:24px;
         text-align:right !important;
@@ -282,9 +284,12 @@ textarea {
 }
 /* responsive navigation */
 .topnav {
-    overflow: hidden;
     background-color: aliceblue;
-
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top:10px;
 }
 
 .topnav a {
@@ -303,21 +308,26 @@ textarea {
 }
 
 .navbutton {
-    background-color: white;
+    background-color: #fbfbfb;
     color: black;
-    padding: 6px;
-    text-align: left !important;
+    padding: 10px;
+    text-align: left;
     align-items: stretch;
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
     margin: 5px;
     cursor: pointer;
-    border-radius: 8px;
+    border-radius: 16px;
     border: 1px solid black;
-    width: 16%;
+    width: 40%;
+    height: 28px;
 }
-.navbutton img { float:right;border: none;}
+.navbutton img {
+    float:right;
+    border: none;
+}
+
 .topnav a.active {
     background-color: rgb(255, 77, 77);
     color: white !important;
@@ -325,6 +335,9 @@ textarea {
 
 .topnav .icon {
     display: none;
+}
+.fa-bars{
+    float: left;
 }
 legend{margin:10px;}
 .mandatory{font-size:0.8em; font-style:italic; color:lightsteelblue;}
@@ -340,7 +353,10 @@ legend{margin:10px;}
         border-radius: 5px;
         margin-top:5px;
     }
-    .topnav.responsive {position: relative;}
+    .topnav.responsive {
+        position: relative;
+        display: block;
+    }
     .topnav.responsive .icon {
         position: absolute;
         right: 5px;
