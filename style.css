@@ -327,6 +327,7 @@ textarea {
     display: none;
 }
 legend{margin:10px;}
+.mandatory{font-size:0.8em; font-style: italic; color:lightsteelblue}
 @media screen and (max-width: 800px) {
     .navbutton {width:auto !important;}
     .topnav a:not(:first-child) {display: none;}
