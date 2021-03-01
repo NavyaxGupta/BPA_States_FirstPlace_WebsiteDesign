@@ -326,7 +326,7 @@ textarea {
 .topnav .icon {
     display: none;
 }
-
+legend{margin:10px;}
 @media screen and (max-width: 800px) {
     .navbutton {width:auto !important;}
     .topnav a:not(:first-child) {display: none;}
