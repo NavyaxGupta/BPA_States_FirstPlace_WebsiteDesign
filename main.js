@@ -42,3 +42,12 @@ function myFunction() {
         x.className = "topnav";
     }
 }
+
+function FunctionHide() {
+  var x = document.getElementById("myMessage");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
