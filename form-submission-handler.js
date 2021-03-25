@@ -107,9 +107,6 @@
         }
     }
 })();
-/*Credit:
-Dwyl. “Dwyl/Learn-to-Send-Email-via-Google-Script-Html-No-Server.” GitHub,
-github.com/dwyl/learn-to-send-email-via-google-script-html-no-server. */
 
 
 //Get the button:
@@ -131,7 +128,4 @@ function topFunction() {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
-/*Credit:
-“How TO - Scroll Back To Top Button.” How To Create a Scroll Back To Top Button,
-www.w3schools.com/howto/howto_js_scroll_to_top.asp.
- */
+
