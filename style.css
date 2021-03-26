@@ -116,6 +116,24 @@ h1, h2, h4, h3{
     z-index: 1000;
 }
 
+@media (max-width: 600px){
+    .prev, .next {
+        top: 30%;
+        margin-top: -11px;
+        padding: 10px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1000px){
+    .prev, .next {
+        top: 35%;
+        margin-top: -11px;
+        padding: 13px;
+        font-size: 30px;
+    }
+}
+
 img{
     padding: 0px;
 }
