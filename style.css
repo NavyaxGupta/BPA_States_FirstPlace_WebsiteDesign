@@ -1,14 +1,15 @@
 *{padding: 0; margin: 0;}
 
 html {
+    font-family: 'Rubik';
     scroll-padding-top: 150px; /* height of sticky header */
 }
 body{
     /*background: powderblue;*/
     overflow-x: hidden;
 }
+
 h1{
-    font-family: 'Rubik';
     font-size: 40px;
     margin-top: 17px;
 }
@@ -17,7 +18,6 @@ h1, h2, h4, h3{
 }
 
 .header{
-    font-family: 'Rubik';
     background-color: aliceblue;
     position: fixed;
     top: 0;
@@ -30,7 +30,7 @@ h1, h2, h4, h3{
     left: 10px;
     padding-top: 10px;
     position: absolute;
-    top: 0px;
+    top: 0;
     width: 150px;
 }
 
@@ -42,9 +42,8 @@ h1, h2, h4, h3{
 .container {
     float: left;
     background:lightsteelblue;
-    padding:132px 0px 0px;
+    padding:132px 0 0;
     width:100%;
-    font-family: 'Rubik';
     font-size: 17px !important;
 }
 
@@ -149,14 +148,13 @@ h1, h2, h4, h3{
 }
 
 img{
-    padding: 0px;
+    padding: 0;
 }
 .navBar a img{padding:1px;}
 
 .headerLine{
     background-color: rgb(0, 0, 102);
     padding: 15px 15px;
-    font-family: 'Rubik';
     color: aliceblue;
 }
 
@@ -208,26 +206,23 @@ img{
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     background-color: rgb(0, 0, 102);
     padding: 15px;
-    font-family: 'Rubik';
     color: white;
     font-size: 28px
 }
 .footergrid-item {
     background-color: rgb(0, 0, 102);
     padding: 10px;
-    font-family: 'Rubik';
     color: white;
     font-size: 17px;
     margin: 10px 20px;
 }
 .contactMessage{
-    margin:15px 0px 0px 0px;
+    margin:15px 0 0 0;
     text-align: left;
 }
 .mapspage ul, .mapspage p {
     background-color: aliceblue;
     color: rgb(0,0,102);
-    font-family: 'Rubik';
     font-style: normal;
     font-size: 1em;
     border-radius: 11px;
@@ -279,8 +274,7 @@ li span.bold {
 
 #team {
     width: 60%;
-    margin: auto;
-    margin-top: 25px;
+    margin: 25px auto;
     display: flex; flex-direction: row;
 }
 
@@ -290,7 +284,7 @@ li span.bold {
     color: rgb(0, 0, 102);
     width: 45%;
     height: 30%;
-    padding: 3px 0px;
+    padding: 3px 0;
     margin-right: auto;
     border-bottom: 8px solid rgb(0, 0, 102);
 }
@@ -312,9 +306,7 @@ li span.bold {
     padding: 20px;
     color: rgb(0,0,102);
     text-align: center;
-    margin: auto;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin: 25px auto;
     background-color: aliceblue;
     border-bottom: 8px solid rgb(0, 0, 102);
 }
@@ -342,7 +334,7 @@ a:focus, button:focus, a:focus img.logo{
     h1{
         font-size:35px;
         text-align:right !important;
-        margin:21px 10px 10px 0px;
+        margin:21px 10px 10px 0;
         font-weight:bold;
     }
     .w3-display-left, .w3-display-right{
@@ -360,7 +352,7 @@ a:focus, button:focus, a:focus img.logo{
     h1{
         font-size:24px;
         text-align:right !important;
-        margin:32px 10px 10px 0px;
+        margin:32px 10px 10px 0;
         font-weight:bold;
     }
     .w3-display-left, .w3-display-right{
