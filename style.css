@@ -48,7 +48,9 @@ h1, h2, h4, h3{
     font-size: 17px !important;
 }
 
-
+.w3-content{
+    padding: 20px 20px;
+}
 .mySlides {
     width: 100%;
     /* height: 500px - removed to correct the home images correct size */
@@ -69,7 +71,7 @@ h1, h2, h4, h3{
 
 /* Position the "next button" to the right */
 .next {
-    right: 0;
+    right: 20px;
     border-radius: 3px 0 0 3px;
 }
 
@@ -116,9 +118,21 @@ h1, h2, h4, h3{
     z-index: 1000;
 }
 
+@media (max-width: 500px){
+    .prev, .next {
+        top: 24%;
+    }
+}
+
 @media (max-width: 600px){
     .prev, .next {
-        top: 30%;
+        top: 26%;
+    }
+}
+
+@media (max-width: 800px){
+    .prev, .next {
+        top: 29%;
         margin-top: -11px;
         padding: 10px;
         font-size: 20px;
@@ -127,7 +141,7 @@ h1, h2, h4, h3{
 
 @media (max-width: 1000px){
     .prev, .next {
-        top: 35%;
+        top: 33%;
         margin-top: -11px;
         padding: 13px;
         font-size: 30px;
@@ -218,11 +232,15 @@ img{
     font-size: 1em;
     border-radius: 11px;
     font-weight: 400;
-    margin: 7px auto;
+    margin: 19px auto;
     padding: 36px;
     text-align: left;
     width: 70%;
-    margin-bottom: 36px;
+}
+
+#map iframe{
+    width: 100%;
+    height: 480px;
 }
 
 .textBox{
@@ -278,12 +296,15 @@ li span.bold {
 }
 
 #team img{
-    margin: 20px;
+    margin: 10px;
+    width: 67%;
+    height: 75%;
 }
 
 #about hr, #team hr {
     height: 5px;
     background-color: rgb(0,0,102);
+    margin-bottom: 5px;
 }
 
 #about {
@@ -297,6 +318,8 @@ li span.bold {
     background-color: aliceblue;
     border-bottom: 8px solid rgb(0, 0, 102);
 }
+
+
 
 a:focus, button:focus, a:focus img.logo{
     outline: 2px solid red;
