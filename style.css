@@ -313,7 +313,7 @@ li span.bold {
 
 
 
-a:focus, button:focus, a:focus img.logo{
+a:focus, prev:focus, next:focus button:focus, a:focus img.logo{
     outline: 2px solid red;
 }
 
