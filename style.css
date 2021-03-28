@@ -364,6 +364,15 @@ a:focus, prev:focus, next:focus button:focus, a:focus img.logo{
     }
 }
 
+@media (max-width: 800px) {
+    h1{
+        font-size:20px;
+        text-align:right !important;
+        margin:32px 10px 10px 0;
+        font-weight:bold;
+    }
+}
+
 
 textarea {
     width: 100%;
