@@ -349,7 +349,7 @@ li span.bold {
     }
 
     h1{
-        font-size:24px;
+        font-size:38px;
         text-align:right !important;
         margin:32px 10px 10px 0;
         font-weight:bold;
@@ -363,7 +363,7 @@ li span.bold {
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
     h1{
         font-size:20px;
         text-align:right !important;
