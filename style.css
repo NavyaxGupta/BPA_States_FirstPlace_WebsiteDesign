@@ -344,15 +344,13 @@ li span.bold {
     .navbutton {
         font-size:20px;
         margin:5px 5px 5px 5px;
-        /* height: 30px; */
         padding: 8px 10px;
     }
 
     h1{
-        font-size:24px;
-        text-align:right !important;
-        margin:32px 10px 10px 0;
-        font-weight:bold;
+      text-align: right !important;
+      margin: 32px 10px 0px 0;
+      font-size: 38px;
     }
     .w3-display-left, .w3-display-right{
         top:30%;
@@ -363,11 +361,11 @@ li span.bold {
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
     h1{
         font-size:20px;
         text-align:right !important;
-        margin:32px 10px 10px 0;
+        margin:32px 10px 0px 0;
         font-weight:bold;
     }
 }
