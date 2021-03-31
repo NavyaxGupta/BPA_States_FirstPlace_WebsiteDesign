@@ -47,7 +47,8 @@ function carousel() {
     }
     x[myIndex-1].style.display = "block";
     dots[myIndex-1].className += " active";
-    setTimeout(carousel, 2000); // Change image every 2 seconds
+    setTimeout(carousel, 3000); // Change image every 3 seconds
+    
 }
 
 
@@ -68,3 +69,5 @@ function myHideFunction() {
     x.style.display = "none";
   }
 }
+
+
