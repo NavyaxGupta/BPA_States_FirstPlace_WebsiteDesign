@@ -11,7 +11,8 @@ body{
 
 h1{
     font-size: 40px;
-    margin-top: 17px;
+    margin-top: 10px;
+    font-weight: bold;
 }
 h1, h2, h4, h3{
     text-align: center;
@@ -225,7 +226,7 @@ img{
     background-color: aliceblue;
     color: rgb(0,0,102);
     font-style: normal;
-    font-size: 1em;
+    font-size: 19px;
     border-radius: 11px;
     font-weight: 400;
     margin: 19px auto;
@@ -250,21 +251,26 @@ img{
 
 /* unvisited link */
 .footergrid-item a:link, .mapspage a:link {
+    font-weight: bold;
     color: rgb(255, 77, 77);
 }
 
 
 /* visited link */
+
 .footergrid-item a:visited{
+    font-weight: bold;
     color: white;
 }
 
 .mapspage a:visited{
+    font-weight: bold;
     color: rgb(0, 0, 102);
 }
 
 /* mouse over link */
 .footergrid-item a:hover, .mapspage a:hover {
+    font-weight: bold;
     color: rgb(36, 143, 36);
 }
 
