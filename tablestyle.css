@@ -55,12 +55,13 @@
 }
 
 h3{
-    font-size: 19px;
+    font-size: 20px;
 }
 .sort-button {
     background-color: rgb(255, 77, 77);
     border: 1px solid rgb(0, 0, 102);
     color: white;
+    border-radius: 3px;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -117,6 +118,6 @@ h3{
     align-items: stretch;
 }
 .button-visit:hover {
-    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.07), 0 5px 5px 0 rgba(0,0,0,0.07), 0 5px 5px 0 rgba(0,0,0,0.07), 0 5px 5px 0 rgba(0,0,0,0.07);
+    transform: scale(1.1);
     color: black;
 }
