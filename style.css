@@ -455,6 +455,13 @@ textarea {
     display: none;
 }
 
+.visually-hidden{
+position : absolute !important;
+height:1px !important;
+width: 1px !important;
+overflow: hidden;
+}
+
 legend{margin:10px;}
 .mandatory{font-size:0.8em; font-style:italic; color:lightsteelblue;}
 .mancolor{font-weight:bold;vertical-align:super;color:lightsteelblue;}
