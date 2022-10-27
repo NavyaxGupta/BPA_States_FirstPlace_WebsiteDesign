@@ -1,4 +1,4 @@
-var slideIndex = 1;
+var slideIndex = 1; 
 showDivs(slideIndex);
 var myIndex = 0;
 carousel();
